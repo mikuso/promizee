@@ -15,7 +15,7 @@ function promizee(promiserFunc, options) {
 	}
 
 	memoed = memoizee(function(){
-		return promiserFunc.apply(this, arguments).finally(function(){
+		return Promise.method(promiserFunc).apply(this, arguments).finally(function(){
 			memoed.clear();
 		});
 	}, options);
