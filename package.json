@@ -1,0 +1,16 @@
+{
+  "author": "Gareth Hughes",
+  "dependencies": {
+    "bluebird": "^3.4.0",
+    "memoizee": "^0.3.10"
+  },
+  "description": "Memoize(e) a function which returns a promise, which clears its cache once the promise has resolved",
+  "devDependencies": {},
+  "directories": {},
+  "license": "ISC",
+  "main": "index.js",
+  "name": "promizee",
+  "optionalDependencies": {},
+  "scripts": {},
+  "version": "1.0.0"
+}
