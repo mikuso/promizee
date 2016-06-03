@@ -1,3 +1,5 @@
+![Dependencies](https://david-dm.org/mikuso/promizee.svg)
+![Issues](https://img.shields.io/github/issues/mikuso/promizee.svg)
 
 So you've memoize(e)d a function which returns a promise, and you'd like the result cache to expire once the promise has been resolved/rejected?
 
